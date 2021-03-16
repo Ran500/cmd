@@ -87,6 +87,20 @@
 
 
 
+----------------------------------------------------------------
+			spas 
+----------------------------------------------------------------
+
+ printf "Create the \nSnapshot created\n"   // This spass Ok
+
+ echo "Create the snapshots\nSnapshot created\n" // This is No
+
+	or 
+	
+echo -e 		// print in first Line 
+
+----------------------------------------------------------------
+
 
 
 
