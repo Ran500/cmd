@@ -1,4 +1,6 @@
- 
+This is the bash        ==      #!/bin/bash 
+
+
  This is Commend Line For Linux or Mac 
 
 # open "http://www.google.com" 		// open Brwser to website Google
@@ -100,20 +102,72 @@
 echo -e 		// print in first Line 
 
 ----------------------------------------------------------------
+                        IF
+----------------------------------------------------------------
+Ex: 1
+----------------------
+if [    ] ; Then
+
+echo "  " 
+
+else
+
+echo "  " 
+
+fi
+
+Ex: 2 
+----------------------
+
+[    ] && echo "  " || echo "  "
 
 
 
+# if exists
+ [ -a /home/ran/Desktop/Notes.txt ] && echo "it's there "
 
-------------------------------------------------------------------------------
-			Download git in Mac 
-------------------------------------------------------------------------------
- # brew install git
- # brew install git-gui
+# checking for blocks     Ex: C: or D 
+ [ -b /dev/sda1 ] && echo "Block found"
 
- > Then install 
+# character special file 
+ [ -c /dev/tty0 ] && echo "Character found"
 
- # sudo git clone https://github.com/Ran500/Test.git 
+# directory exists
+ [ -d /home/ran/ ] && echo "Found direcotry"
+
+# true if exists 
+ [ -e /home/ran/Desktop/Noot.txt ] && echo "File found "
+
+# if regular file 
+ [ -f /home/ran/Desktop/Noot.txt ] && echo "Regular file "
+
+# if symbolic link 
+ [ -h /home/ran/.mozilla ] && echo "Symbolic file found"
+
+# readable 
+ [ -r /home/ran/Desktop/Noot.txt ] && echo "File is Readable"
+
+# if greater than zero
+ [ -s /home/ran/Desktop/d.txt ] && echo "This is File < zero "
+
+# writable 
+ [ -w /home/ran/Desktop/ ] && echo "it's Writable "
+
+# exists and excutable 
+ [ -x /home/ran/Desktop/Shell.sh ] && echo "Found excutable"
+
+
+# owned by current user 
+ [ -O /home/ran/Desktop/d.txt ] && echo "Yes is yours" 
+
+# owned by current user group 
+ [ -G /home/ran/Desktop/d.txt ] && echo "Yes it's your group's"
+
+# if symbolic and file 
+ [ -L home/ran/Desktop/.theres ] && echo "Syembolic File found"
+
+# if there and been modified since last read 
+ [ -N home/ran/Desktop/d.txt ] && echo "modified"
 
 
 
------------------------------------------------------------------------------- 
