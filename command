@@ -171,3 +171,53 @@ Ex: 2
 
 
 
+
+
+
+
+
+   STRING1 = STRING2	        //  STRING1 is equal to STRING2
+ 
+   STRING1 != STRING2	       // STRING1 is not equal to STRING2
+
+   INTEGER1 -eq INTEGER2	  //  INTEGER1 is numerically equal to INTEGER2
+
+   INTEGER1 -gt INTEGER2	 //  INTEGER1 is numerically greater than INTEGER2
+
+   INTEGER1 -lt INTEGER2	//  INTEGER1 is numerically less than INTEGER2
+
+
+
+
+
+
+----------------------------------------------------------------
+
+                               Function
+
+
+func()
+{
+    echo "This is Frome function"
+}
+
+func
+
+
+
+
+
+----------------------------------------------------------------
+                    parameters 
+----------------------------------------------------------------
+
+Ex1:
+
+echo "File  : " $0
+
+echo "Par : 1" $1
+echo "Par : 2" $2
+
+-------------------------
+
+
