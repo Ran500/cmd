@@ -126,7 +126,7 @@ Ex: 2
 # if exists
  [ -a /home/ran/Desktop/Notes.txt ] && echo "it's there "
 
-# checking for blocks     Ex: C: or D 
+B# checking for blocks     Ex: C: or D 
  [ -b /dev/sda1 ] && echo "Block found"
 
 # character special file 
